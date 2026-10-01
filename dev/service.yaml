@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Service
 metadata:
   name: myapp-argocd
-  namespace: myapp
+  # namespace: myapp
 specs:
   selector:
     app: myapp-argocd

@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Development
 metadata:
   name: myapp-argocd
-  # namespace: myapp
   specs:
     selector:
       matchLabels:
